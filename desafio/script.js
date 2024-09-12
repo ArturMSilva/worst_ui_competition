@@ -1,3 +1,5 @@
+let contadorCliques = 0;
+
 document.getElementById('nome').addEventListener('keydown', function(event) {
   if (event.key === 'Enter') {
       mostrarCampos();
@@ -22,11 +24,13 @@ function mostrarCampos() {
 function adivinharAno() {
   const ano = Math.floor(Math.random() * (2015 - 1930 + 1)) + 1930;
   document.getElementById('ano').value = ano;
+  incrementarContador(); // Incrementa o contador de cliques
 }
 
 function adivinharMes() {
   const mes = Math.floor(Math.random() * 12) + 1;
   document.getElementById('mes').value = mes;
+  incrementarContador(); // Incrementa o contador de cliques
 }
 
 function adivinharDia() {
@@ -35,6 +39,13 @@ function adivinharDia() {
   const ultimaDataDoMes = new Date(ano, mes, 0).getDate();
   const dia = Math.floor(Math.random() * ultimaDataDoMes) + 1;
   document.getElementById('dia').value = dia;
+  incrementarContador(); // Incrementa o contador de cliques
+}
+
+function incrementarContador() {
+  contadorCliques++;
+  // Atualiza o texto no elemento HTML com a contagem atualizada
+  document.getElementById('contadorCliques').innerText = `Número de cliques: ${contadorCliques}`;
 }
 
 function calcularAniversario() {
