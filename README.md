@@ -1,40 +1,25 @@
-# Worst UI Competition
+# Quando é Seu Aniversário?
 
-Welcome to the **Worst UI Competition**! The challenge here is to design the most atrocious, confusing, and laughably bad user interface for a web application. While the theme is open-ended, we encourage you to take on a specific challenge: **a scoring system for judges at the Olympic Games**.
+## Descrição
 
-## Objective
+O projeto "Quando é Seu Aniversário?" é uma aplicação interativa que permite aos usuários calcular quantos dias faltam para seu próximo aniversário. O usuário insere seu nome, e a aplicação gera uma data aleatória de nascimento para calcular a contagem regressiva até o próximo aniversário.
 
-Your task is to create a scoring system that’s so poorly designed it would leave even the most experienced Olympic judges scratching their heads. We’re looking for a UI that defies all user experience best practices—whether it’s impossible to navigate, overloaded with irrelevant information, or just plain absurd. The more frustrating, the better!
+## Funcionalidades
 
-## Creativity and Technical Execution
+- **Entrada de Nome:** O usuário digita seu nome e pode avançar pressionando "Enter" ou clicando no botão "OK".
+- **Geração de Data Aleatória:** Após a entrada do nome, a aplicação gera uma data aleatória de nascimento (ano, mês e dia).
+- **Exibição de Mensagem Personalizada:** Exibe uma mensagem com a data aleatória gerada e a quantidade de dias restantes para o próximo aniversário.
+- **Mensagem Especial:** Se o aniversário for hoje, uma mensagem especial será exibida.
+- **Campo de Data:** Os campos de ano, mês e dia são preenchidos com valores aleatórios após o usuário clicar no botão "adivinhar" e não podem ser editados manualmente.
 
-We want to see just how creative you can get while still demonstrating your technical skills. There are no limits on the technology you can use, but frameworks like React or Vue might give you the edge you need to execute your hilariously bad ideas.
+## Tecnologias Utilizadas
 
-## Styling
+- **HTML:** Estrutura básica da página.
+- **CSS:** Estilização da página para uma aparência limpa e moderna.
+- **JavaScript:** Lógica para calcular a contagem regressiva, gerar valores aleatórios e manipular a interface do usuário.
 
-Remember, while the UI should be functionally terrible, it doesn’t have to be ugly. A beautifully styled but utterly incomprehensible interface could be just as effective. We recommend using a styling framework like Tailwind CSS to add that extra layer of polish to your disastrously bad design.
+## Estrutura do Projeto
 
-## Submission Guidelines
-
-To submit your entry, please fork the provided repository and make your changes in your fork. Ensure that your forked repository’s README.md includes detailed instructions on how to execute and run your project. This will help us to easily test and experience your horrendous UI.
-
-- [GitHub Forks](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks)
-
-
-## Resources
-
-Here are some resources to help you get started:
-
-- [React Documentation](https://react.dev/)
-- [Vue.js Documentation](https://vuejs.org/)
-- [Tailwind CSS Documentation](https://tailwindcss.com/)
-
-## Examples
-
-For some inspiration, check out the following video on YouTube that showcases examples of hilariously bad UI designs:
-
-[Watch on YouTube](https://www.youtube.com/watch?v=dAAj1_lfvZA)
-
-Feel free to draw ideas from these examples, but remember, the goal is to create something uniquely terrible and your own!
-
-### Get ready to create a scoring system that would make the Olympic Games unforgettable—for all the wrong reasons!
+- **`index.html`**: Contém a estrutura HTML da aplicação.
+- **`styles.css`**: Contém o estilo CSS para a página.
+- **`script.js`**: Contém a lógica JavaScript para a funcionalidade da aplicação.
