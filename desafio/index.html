@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contagem Regressiva para o Aniversário</title>
+    <link rel="stylesheet" href="styles.css"> 
+</head>
+<body>
+    <h1 class="titulo-elegante">Quando é Seu Aniversário?</h1>
+
+    <div id="inicio">
+        <label for="nome">Digite seu nome:</label>
+        <input type="text" id="nome" placeholder="Digite seu nome">
+        <button id= "btnOk" onclick="mostrarCampos()">OK</button>
+    </div>
+
+    <div id="entrada" style="display:none;">
+        <p id="mensagem"></p>
+        <label for="ano">Ano:</label>
+        <input type="text" id="ano" readonly placeholder="Ano">
+        <button onclick="adivinharAno()">Adivinhar</button>
+        <br>
+
+        <label for="mes">Mês:</label>
+        <input type="text" id="mes" readonly placeholder="Mês">
+        <button onclick="adivinharMes()">Adivinhar</button>
+        <br>
+
+        <label for="dia">Dia:</label>
+        <input type="text" id="dia" readonly placeholder="Dia">
+        <button onclick="adivinharDia()">Adivinhar</button>
+        <br>
+
+        <button onclick="calcularAniversario()">CONFIRMAR</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
