@@ -54,7 +54,7 @@ function calcularAniversario() {
     const mes = parseInt(document.getElementById('mes').value) - 1;
     const dia = parseInt(document.getElementById('dia').value);
 
-    if (!ano || !mes || !dia) {
+    if (isNaN(ano) || isNaN(mes) || isNaN(dia)) {
         alert('Por favor, complete os campos de data.');
         return;
     }
