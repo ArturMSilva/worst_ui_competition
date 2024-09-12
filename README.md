@@ -1,6 +1,6 @@
 # Quando é Seu Aniversário?
 
-### Acesse o desafio através do link a seguir:
+### Acesse o meu desafio através do link a seguir:
 
 [worst_ui_competition][1]
 
