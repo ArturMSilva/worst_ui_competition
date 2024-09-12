@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #edf8ece5; /* Cor cinza claro */
+}
+
+h1 {
+    color: #4CAF50; /* Cor verde para o título */
+    font-family: 'Helvetica Neue', sans-serif; /* Fonte elegante e moderna */
+    font-size: 2rem; /* Tamanho do texto */
+    color: #000000; /* Cor do texto */
+    margin-top: 20px; /* Espaçamento superior */
+    margin-bottom: 20px; /* Espaçamento inferior */
+    letter-spacing: 1px; /* Espaçamento entre letras */
+    font-weight: 300; /* Deixa a fonte mais leve e elegante */
+    line-height: 1.2; /* Altura da linha */
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+}
+
+input {
+    margin: 10px 0;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    padding: 10px 15px;
+    background-color: #4CAF50; /* Cor verde para o botão */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 5px;
+}
+
+button:hover {
+    background-color: #45a049; /* Cor verde escuro quando o botão é hover */
+}
+
+p {
+    margin-top: 20px;
+    font-size: 16px;
+}
+
+#mensagem {
+    background-color: #d9f8db; /* Cor de fundo suave */
+    border: 1px solid #ddd; /* Borda cinza clara */
+    border-radius: 5px; /* Bordas arredondadas */
+    padding: 15px; /* Espaçamento interno */
+    font-size: 17px; /* Tamanho da fonte */
+    color: #333; /* Cor do texto */
+    max-width: 500px; /* Largura máxima */
+    word-wrap: break-word; /* Quebra de linha automática */
+    width: 80%;
+}
