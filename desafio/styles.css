@@ -58,3 +58,16 @@ p {
     word-wrap: break-word; /* Quebra de linha automática */
     width: 80%;
 }
+
+#contador {
+    background-color: #d9f8db; /* Cor de fundo suave */
+    border: 1px solid #ddd; /* Borda cinza clara */
+    border-radius: 5px; /* Bordas arredondadas */
+    padding: 15px; /* Espaçamento interno */
+    font-size: 17px; /* Tamanho da fonte */
+    color: #333; /* Cor do texto */
+    max-width: 500px; /* Largura máxima */
+    word-wrap: break-word; /* Quebra de linha automática */
+    width: 50%;
+    margin-top: 20px;
+}
